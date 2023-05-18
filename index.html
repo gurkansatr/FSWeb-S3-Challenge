@@ -6,9 +6,10 @@
 	<meta charset="utf-8">
 
 	<title>Sprint Challenge - Anasayfa</title>
-
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -16,13 +17,26 @@
 		<!-- header -->
 		<header>
 			<div>
-				ERGİNEER BAR VE MANGAL
+				<a href="index.html">
+					<h1>
+						ERGİNEER BAR VE MANGAL
+					</h1>
+				</a>
 
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+				<nav>
+					<div>
+						<a href="menu.html">Menü</a>
+						<a href="#">Rezervasyonlar</a>
+						<a href="#">Özel Teklifler</a>
+						<a href="#">İletişim</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-square-facebook"></i>
+						<i class="fa-brands fa-square-twitter"></i>
+						<i class="fa-brands fa-square-instagram"></i>
+					</div>
+				</nav>
 			</div>
 		</header>
 
@@ -31,23 +45,23 @@
 			<div>
 				<h2>YEMEKLERİMİZ</h2>
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg">
 
-				img/food-burger.jpg
+				<img src="img/food-burger.jpg">
 
-				img/food-poutine.jpg
+				<img src="img/food-poutine.jpg">
 
-				img/food-ribs.jpg
+				<img src="img/food-ribs.jpg">
 
-				img/food-sandwich.jpg
+				<img src="img/food-sandwich.jpg">
 
-				img/food-sausage.jpg
+				<img src="img/food-sausage.jpg">
 
-				img/food-steak.jpg
+				<img src="img/food-steak.jpg">
 
-				img/food-tacos.jpg
+				<img src="img/food-tacos.jpg">
 
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg">
 			</div>
 		</section>
 
@@ -125,15 +139,24 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
+			<div class="email">
+				<p> Mail listemize katılın!</p>
+				<input placeholder="E-posta Adresi" type="email" id="email" name="email" />
+
+				<button type="button" class="button" href=""> Üye Ol </button>
+			</div>
 			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="nav">
+				<nav>
+					<a href="menu.html"> Menü </a>
+					<a href="#">Rezervasyonlar</a>
+					<a href="#">Özel Teklifler</a>
+					<a href="#">İletişim</a>
+				</nav>
+
+				<!-- copyright -->
+				<p> ©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+			</div>
 		</footer>
 	</div>
 </body>
